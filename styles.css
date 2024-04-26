@@ -26,4 +26,11 @@ html {
     position: relative;
     width: 41px;
     height: 175px;
+    margin: 2px;
+    float: left;
+}
+
+.key.black--key::after {
+    background-color: #1d1e22;
+    content: "";
 }
